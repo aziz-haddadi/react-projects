@@ -1,0 +1,69 @@
+.search_bar {
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 1s;
+}
+  
+.search_bar:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+  
+  .search_bar:hover input {
+    max-width: 400px;
+}
+  
+.search_bar input {
+    background: transparent;
+    border: 0;
+    max-width: 0;
+    padding: 0;
+    text-indent: 12px;
+    color: #f9f9f9;
+    font-size:40px;
+    font-family: "Poppins";
+    outline: none;
+    transition: 1s;
+  }
+  
+  .search_bar input::placeholder {
+    color: rgba(255, 255, 255, 0.375);
+  }
+.search_bar span{
+    position: relative;
+    top: 6px;
+}
+
+.weather_icon{
+    width: 200px;
+    margin-top: 30px;   
+}
+.weather h1{
+    font-size:85px;
+    font-weight: 600;
+}
+.weather h2{
+    font-size:60px;
+    font-weight: 550;
+    margin-top: 6px;
+}
+.details{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 50px;
+    margin-right: 10px ;
+}
+.humidity, .wind{
+    font-size: 30px;
+    margin-top: -6px;
+}
